@@ -6,7 +6,9 @@ const Layout = (props) => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">React Password Generator</Navbar.Brand>
+          <Navbar.Brand href="#home" data-testid="title">
+            React Password Generator
+          </Navbar.Brand>
         </Container>
       </Navbar>
       <Container className="p-5">
